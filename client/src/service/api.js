@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "";
+const URL = "https://server-xejs.onrender.com";
 
 export const getNews = async (page, size = 5) => {
   try {
